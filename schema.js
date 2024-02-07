@@ -11,11 +11,11 @@ export const typeDefs = `#graphql
   }
   type Author {
     id: ID!,
-    name: string!,
-    verified: Boolean!
+    name: String!,
+    verified: Boolean! 
   }
   type Query {
-    reviews: [Reviews]
+    reviews: [Review]
     games: [Game]
     authors: [Author]
   }
